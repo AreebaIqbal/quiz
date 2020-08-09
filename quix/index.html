@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+
+    <div id="header">
+        <h2> QUIZ ABOUT BASICS OF COMPUTER </h2>
+    </div>
+
+    <div id = "score_time">
+        <span id = "score">
+            Score : <span id = sc> 0/5</span>
+        </span>
+    </div>
+
+    
+    
+    <div id="q1">
+        <fieldset>
+            <h3> Who is the father of Computer?</h3>
+            <input type= "radio" id = "q1_o1" name = "q1"> Charles Babbage <br>
+            <input type= "radio" id = "q1_o2" name = "q1"> Bilgates <br>
+            <input type= "radio" id = "q1_o3" name = "q1"> Simur Cray <br>
+            <input type= "radio" id = "q1_o4" name = "q1"> Allen <br>
+        </fieldset>
+    </div>
+
+   
+
+    <div id="q2" style="visibility: hidden;">
+        <fieldset>
+            <h3> The basic operations performed by a computer are__________?</h3>
+            <input type= "radio" id = "q2_o1" name = "q2"> Arithematic Operations <br>
+            <input type= "radio" id = "q2_o2" name = "q2"> Logical Operations <br>
+            <input type= "radio" id = "q2_o3" name = "q2"> Relation Operations <br>
+            <input type= "radio" id = "q2_o4" name = "q2"> All of Above <br>
+        </fieldset>
+    </div>
+
+    <div id="q3" style="visibility: hidden;">
+        <fieldset>
+            <h3> If a computer has more than one processor then it is known as__________?</h3>
+            <input type= "radio" id = "q3_o1" name = "q3"> Multi Processor <br>
+            <input type= "radio" id = "q3_o2" name = "q3"> Uni Processor <br>
+            <input type= "radio" id = "q3_o3" name = "q3"> Multi Threading <br>
+            <input type= "radio" id = "q3_o4" name = "q3"> Multi Programming <br>
+        </fieldset>
+    </div>
+
+    <div id="q4" style="visibility: hidden;">
+        <fieldset>
+            <h3> WWW stands for __________?</h3>
+            <input type= "radio" id = "q4_o1" name = "q4"> Wide World Web <br>
+            <input type= "radio" id = "q4_o2" name = "q4"> Whole World Web  <br>
+            <input type= "radio" id = "q4_o3" name = "q4"> World Wide Web <br>
+            <input type= "radio" id = "q4_o4" name = "q4"> Web Wide World  <br>
+        </fieldset>
+    </div>
+
+    <div id="q5" style="visibility: hidden;">
+        <fieldset>
+            <h3> The brain of any computer system is___________?</h3>
+            <input type= "radio" id = "q5_o1" name = "q5"> ALU <br>
+            <input type= "radio" id = "q5_o2" name = "q5"> Control Unit <br>
+            <input type= "radio" id = "q5_o3" name = "q5"> Memory <br>
+            <input type= "radio" id = "q5_o4" name = "q5"> CPU <br>
+        </fieldset>
+    </div>
+
+
+    <div id = "btns">
+        <button id = "next" onclick= "nextQues(); calcScore()" style="visibility: visible;"> NEXT </button>
+        <button id = "submit" style="visibility: hidden;" onclick="calcScore()"> <a href = "submit.html">SUBMIT</a> </button>
+    </div>
+   
+    
+</body>
+</html>
